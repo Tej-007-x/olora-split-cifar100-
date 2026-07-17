@@ -76,7 +76,7 @@ I test this by training two versions of the same pipeline:
 
 ## 5. How to Run
 
-1. Upload `[cifar-100-python.tar.gz]([url](https://cave.cs.toronto.edu/kriz/cifar.html))`  (official CIFAR-100 archive) 
+1. Upload `[cifar-100-python.tar.gz]([(https://cave.cs.toronto.edu/kriz/cifar.html)])`  (official CIFAR-100 archive) 
 to your Google Drive.
 2. Open the notebook in Google Colab, set runtime to **GPU (T4)**.
 3. Run all cells top to bottom. Cell 5 will locate the archive automatically anywhere in your Drive.
