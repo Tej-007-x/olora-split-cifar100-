@@ -15,6 +15,8 @@ This project implements and evaluates **O-LoRA (Orthogonal Low-Rank Adaptation)*
 
 > Wang, X., Chen, T., Ge, Q., Xia, H., Bao, R., Zheng, R., Zhang, Q., Gui, T., & Huang, X. (2023). *Orthogonal Subspace Learning for Language Model Continual Learning.* arXiv:2310.14152.
 
+**ORIGINAL PAPER**[]([(https://arxiv.org/abs/2310.14152)])
+
 The original paper targets **Transformer-based language models** (T5, LLaMA) on **text classification** benchmarks, applying LoRA adapters to attention Q/V projection matrices and enforcing orthogonality between each new task's adapter and all previous tasks' adapters.
 
 **My contribution:** I adapt the same core idea — task-specific low-rank adapters kept orthogonal to one another — to a **CNN (ResNet-18)** operating on **images (Split-CIFAR100)**, and empirically test whether the paper's central hypothesis holds in this different domain.
